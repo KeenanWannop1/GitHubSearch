@@ -66,7 +66,7 @@ public class MainActivityPresenter implements MainActivityContract.Presenter {
 
             @Override
             public void onFailure(Call<String> call, Throwable t) {
-                Log.d(TAG, "onFailure: ");
+                Log.d(TAG, "onFailure: " + t);
             }
         });
 

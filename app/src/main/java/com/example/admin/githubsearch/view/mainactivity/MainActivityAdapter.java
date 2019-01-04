@@ -60,7 +60,7 @@ public class MainActivityAdapter extends RecyclerView.Adapter<MainActivityAdapte
         Glide.with(context).load(repository.getAvatarUrl()).into(holder.ivAvatar);
         holder.tvName.setText(repository.getName());
         holder.tvDescript.setText(repository.getDescription());
-        holder.tvStars.setText('\u2605' + repository.getStargazersCount());
+        holder.tvStars.setText("" + '\u2605' + repository.getStargazersCount());
 
 
     }
