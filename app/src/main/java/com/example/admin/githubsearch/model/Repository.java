@@ -1,5 +1,5 @@
 
-package com.example.admin.githubsearch;
+package com.example.admin.githubsearch.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
